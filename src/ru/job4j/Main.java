@@ -1,9 +1,12 @@
 package ru.job4j;
 
+import ru.job4j.converter.Converter;
+
 public class Main {
 
-        public static void main(String[] args) {
-            System.out.println("19.01.2020");
-        }
+    public static void main(String[] args) {
+        int euro = Converter.rubleToEuro(140);
+        System.out.println("140 rubles are " + euro + " euro.");
+    }
     }
 
