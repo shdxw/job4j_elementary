@@ -1,14 +1,13 @@
 package ru.job4j;
 
-import ru.job4j.converter.Converter;
+import ru.job4j.calculator.Fit;
 
 public class Main {
 
     public static void main(String[] args) {
-        int euro = Converter.rubleToEuro(140);
-        int dolrs = Converter.rubleToDollar(900);
-        System.out.println("140 rubles are " + euro + " euro.");
-        System.out.println("900 rubles are " + dolrs + " dollars.");
+        short height = 187;
+        double man = Fit.manWeight(height);
+        System.out.println("Man 187 is " + man);
     }
     }
 
