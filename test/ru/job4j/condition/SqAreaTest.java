@@ -17,18 +17,18 @@ public class SqAreaTest {
 
     @Test
     public void squareTwo() {
-        int p = 1;
-        int k = 1;
-        double exp = 0;
+        int p = 15;
+        int k = 3;
+        double exp = 3;
         double out = SqArea.square(p, k);
         assertEquals(out, exp, 0.01);
     }
 
     @Test
     public void squareThree() {
-        int p = 10;
-        int k = 5;
-        double exp = 0;
+        int p = 40;
+        int k = 2;
+        double exp = 72;
         double out = SqArea.square(p, k);
         assertEquals(out, exp, 0.01);
     }
