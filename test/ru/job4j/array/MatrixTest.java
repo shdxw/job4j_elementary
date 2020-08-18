@@ -5,6 +5,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 public class MatrixTest {
+
     @Test
     public void when2on2() {
         int[][] table = Matrix.multiple(2);
